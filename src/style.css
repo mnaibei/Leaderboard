@@ -2,60 +2,107 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 28px;
+  align-self: baseline;
 }
 
 .main-container {
   display: flex;
-  justify-content: space-around;
+  gap: 10%;
   min-height: 50vh;
-  align-items: center;
 }
 
 .recent {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .board {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-width: 300px;
+  margin-top: 20px;
+  margin-left: 10%;
 }
 
 .results-board {
   border: 2px solid;
-  height: 250px;
   list-style: none;
-  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-weight: bold;
+}
+
+.refresh {
+  margin-left: 100px;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.8);
+  border: 2px solid black;
+  background: white;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .add-your-score {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 25px;
 }
 
 .submit {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  height: 250px;
+  height: 160px;
 }
 
 input {
-  width: 250px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 25px;
+  border: black solid 2px;
+}
+
+input::placeholder {
+  padding: 10px;
 }
 
 .submitBtn {
-  width: 100px;
-  align-self: end;
+  width: 80px;
+  height: 30px;
+  margin-left: auto;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  border: 2px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+.results-board li {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.results-board li:nth-child(even) {
+  background-color: #cfceceb9;
 }
