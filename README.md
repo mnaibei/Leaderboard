@@ -39,7 +39,15 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML, CSS, JS & Webpack
+> HTML, CSS, JS, Webpack & Leaderboard API Service
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+> Leaderboard API Service: this is an API used to save scores of a game that is submitted via the form.
+
+The base link is: https://us-central1-js-capstone-backend.cloudfunctions.net/api/
+
+The game link is: https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/XYO01EPTyiKsbyR83qNs/scores
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features <a name="key-features"></a>
