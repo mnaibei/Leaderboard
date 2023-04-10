@@ -40,6 +40,8 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   font-weight: bold;
+  overflow-y: scroll;
+  height: 250px;
 }
 
 .refresh {
