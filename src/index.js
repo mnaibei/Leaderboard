@@ -8,8 +8,8 @@ const nameValue = document.querySelector('.name');
 submitForm.addEventListener('submit', (e) => {
   e.preventDefault();
   postScores(nameValue.value, scoreValue.value);
-  scoreValue.value = ''
-  nameValue.value = ''
+  scoreValue.value = '';
+  nameValue.value = '';
 });
 
 const refresh = document.querySelector('.refresh');
